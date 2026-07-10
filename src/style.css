@@ -53,3 +53,23 @@ a {
     flex-direction: column; /* Items stack vertically */
   }
 }
+
+.bodyy {
+  /* one color */
+  background: rgb(2 0 36);
+}
+
+.to{
+  /* or fairly simple gradient */
+  background: linear-gradient(180deg, black, purple);
+}
+
+.three{
+  /* or more complex gradient*/
+  background: linear-gradient(
+    180deg,
+    rgb(2 0 36 / 1) 0%,
+    rgb(100 9 121 / 1) 35%,
+    rgb(224 0 255 / 1) 100%
+  );
+}
