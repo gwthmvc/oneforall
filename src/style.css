@@ -34,4 +34,12 @@ body{
     color: #333333;
 
     margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card:hover {
+  /* Apply visual changes on hover */
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
