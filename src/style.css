@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+.container{
+    margin: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
