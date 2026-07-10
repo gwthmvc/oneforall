@@ -1,14 +1,37 @@
 body{
     background-color: antiquewhite;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .container{
     margin: 1rem;
-}
-
-.card{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    /* Dimensions */
+    width: 150px;
+    height: 150px;
+    
+    /* Visual styling */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    /* Flexbox to center the letter */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Typography for the letter */
+    font-family: Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333333;
+
+    margin: 10px;
 }
